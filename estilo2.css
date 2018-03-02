@@ -36,7 +36,7 @@
   
   .text {
     white-space: nowrap; 
-    color: white;
+    color: black;
     font-size: 50px;
     position: absolute;
     overflow: hidden;
@@ -44,4 +44,5 @@
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-}
+    display: none;
+  }
